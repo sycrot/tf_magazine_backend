@@ -32,11 +32,10 @@ public class State implements Serializable {
 	public State() {
 	}
 
-	public State(int id, String name, List<City> cities) {
+	public State(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.cities = cities;
 	}
 
 	public int getId() {
