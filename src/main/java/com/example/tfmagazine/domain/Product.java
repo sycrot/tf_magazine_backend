@@ -56,7 +56,7 @@ public class Product implements Serializable {
 	}
 	
 	@JsonIgnore
-	public List<Request> getPayment() {
+	public List<Request> getRequest() {
 		List<Request> list = new ArrayList<>();
 		for (ItemRequest x : items) {
 			list.add(x.getRequest());
