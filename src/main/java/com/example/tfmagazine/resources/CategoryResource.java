@@ -23,7 +23,7 @@ import com.example.tfmagazine.dto.CategoryDTO;
 import com.example.tfmagazine.services.CategoryServices;
 
 @RestController
-@RequestMapping(value = "/categories")
+@RequestMapping(value = "/categorias")
 public class CategoryResource {
 	
 	@Autowired
