@@ -31,7 +31,7 @@ public class Client implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String nome;
 	
 	@Column(unique=true)
@@ -61,7 +61,7 @@ public class Client implements Serializable{
 		addProfile(Profile.CLIENTE);
 	}
 
-	public Client(int id, String nome, String email, String cpfOuCnpj, int tipo, String senha) {
+	public Client(Integer id, String nome, String email, String cpfOuCnpj, int tipo, String senha) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -72,11 +72,11 @@ public class Client implements Serializable{
 		addProfile(Profile.CLIENTE);
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
