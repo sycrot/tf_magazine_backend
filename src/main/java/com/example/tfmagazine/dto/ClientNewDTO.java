@@ -7,7 +7,9 @@ import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
 
-//@ClientUpdate
+import com.example.tfmagazine.services.validation.ClientUpdate;
+
+@ClientUpdate
 public class ClientNewDTO implements Serializable {
 
 	/**

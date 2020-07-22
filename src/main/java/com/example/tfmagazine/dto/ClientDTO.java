@@ -8,8 +8,9 @@ import javax.validation.constraints.NotEmpty;
 import org.hibernate.validator.constraints.Length;
 
 import com.example.tfmagazine.domain.Client;
+import com.example.tfmagazine.services.validation.ClientUpdate;
 
-//@ClientUpdate
+@ClientUpdate
 public class ClientDTO implements Serializable {
 
 	/**

@@ -19,6 +19,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import com.example.tfmagazine.domain.enums.Profile;
+import com.example.tfmagazine.domain.enums.TypeCustomer;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
@@ -37,7 +38,7 @@ public class Client implements Serializable{
 	@Column(unique=true)
 	private String email;
 	private String cpfOuCnpj;
-	private int tipo;
+	private Integer tipo;
 	
 	@JsonIgnore
 	private String senha;
@@ -61,13 +62,13 @@ public class Client implements Serializable{
 		addProfile(Profile.CLIENTE);
 	}
 
-	public Client(Integer id, String nome, String email, String cpfOuCnpj, int tipo, String senha) {
+	public Client(Integer id, String nome, String email, String cpfOuCnpj, TypeCustomer tipo, String senha) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.email = email;
 		this.cpfOuCnpj = cpfOuCnpj;
-		this.tipo = tipo;
+		this.tipo = (tipo == null) ? null : tipo.getCod();
 		this.senha = senha;
 		addProfile(Profile.CLIENTE);
 	}
@@ -104,11 +105,11 @@ public class Client implements Serializable{
 		this.cpfOuCnpj = cpfOuCnpj;
 	}
 
-	public int getTipo() {
+	public Integer getTipo() {
 		return tipo;
 	}
 
-	public void setTipo(int tipo) {
+	public void setTipo(Integer tipo) {
 		this.tipo = tipo;
 	}
 
