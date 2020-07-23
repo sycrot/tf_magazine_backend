@@ -131,7 +131,7 @@ public class ClientService {
 		return new Client(obj.getId(), obj.getName(), obj.getEmail(), null, null, null);
 	}
 	
-	public Client fromDto(ClientNewDTO obj) {
+	public Client fromDTO(ClientNewDTO obj) {
 		
 		Client cli = new Client(null, obj.getName(), obj.getEmail(), obj.getCpfOuCnpj(), TypeCustomer.toEnum(obj.getType()), bpe.encode(obj.getPassword()));
 		City city = new City(obj.getCityId(), null,  null);
