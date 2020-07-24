@@ -20,7 +20,7 @@ public class PaymentWithCard extends Payment {
 		
 	}
 
-	public PaymentWithCard(int id, StatePayment state, Request request, Integer numeroDeParcelas) {
+	public PaymentWithCard(Integer id, StatePayment state, Request request, Integer numeroDeParcelas) {
 		super(id, state, request);
 		this.numeroDeParcelas = numeroDeParcelas;
 	}

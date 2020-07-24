@@ -37,7 +37,7 @@ public class Payment implements Serializable{
 	public Payment() {
 	}
 
-	public Payment(int id, StatePayment state, Request request) {
+	public Payment(Integer id, StatePayment state, Request request) {
 		super();
 		this.id = id;
 		this.state = (state == null) ? null : state.getCod();

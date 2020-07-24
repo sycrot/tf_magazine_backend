@@ -43,8 +43,6 @@ public class ClientUpdateValidator implements ConstraintValidator<ClientUpdate, 
 			list.add(new FieldMessage("Email", "Email já existe"));
 		}
 		
-		
-		// inclua os testes aqui, inserindo erros na lista
 		for (FieldMessage e : list) {
 			context.disableDefaultConstraintViolation();
 			context.buildConstraintViolationWithTemplate(e.getMessage()).addPropertyNode(e.getFieldName())

@@ -1,6 +1,5 @@
 package com.example.tfmagazine.services;
 
-import java.awt.image.BufferedImage;
 import java.util.List;
 import java.util.Optional;
 
@@ -13,7 +12,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
 
 import com.example.tfmagazine.domain.Address;
 import com.example.tfmagazine.domain.City;

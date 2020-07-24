@@ -22,7 +22,7 @@ public class State implements Serializable {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String name;
 	
 	@JsonIgnore
@@ -32,17 +32,17 @@ public class State implements Serializable {
 	public State() {
 	}
 
-	public State(int id, String name) {
+	public State(Integer id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 

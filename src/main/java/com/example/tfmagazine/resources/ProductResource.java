@@ -31,6 +31,7 @@ public class ProductResource {
 		
 	}
 	
+	@RequestMapping(method=RequestMethod.GET)
 	public ResponseEntity<Page<ProductDTO>> findPage(
 			@RequestParam(value="nome", defaultValue="") String nome,
 			@RequestParam(value="categorias", defaultValue="") String categorias,

@@ -2,9 +2,11 @@ package com.example.tfmagazine.domain;
 
 import java.io.Serializable;
 
+import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+@Embeddable
 public class ItemRequestPK implements Serializable {
 
 	/**
