@@ -19,7 +19,7 @@ public class City implements Serializable {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String name;
 	
 	@ManyToOne
@@ -29,18 +29,18 @@ public class City implements Serializable {
 	public City() {
 	}
 
-	public City(int id, String name, State state) {
+	public City(Integer id, String name, State state) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.state = state;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
