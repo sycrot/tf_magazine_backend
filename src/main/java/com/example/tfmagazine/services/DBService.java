@@ -107,7 +107,6 @@ public class DBService {
 		
 		Product p18 = new Product(null, "Livro - As crônicas de Nárnia - Volume único", 69.90);
 		Product p19 = new Product(null, "Livro - Quem mexeu no meu queijo", 9.90);
-		Product p191 = new Product(null, "Livro - O Hobbit", 58.90);
 		
 		Product p20 = new Product(null, "Lapis de Escrever Preto Escolar Graduado Caixa H Artools", 6.90);
 		Product p21 = new Product(null, "Papel A4 Copimax 75g/m2 500 Folhas", 16.90);
@@ -145,7 +144,7 @@ public class DBService {
 		cat5.getProducts().addAll(Arrays.asList(p71, p8, p9, p10));
 		cat6.getProducts().addAll(Arrays.asList(p11, p12, p13));
 		cat7.getProducts().addAll(Arrays.asList(p14, p15, p16, p17));
-		cat8.getProducts().addAll(Arrays.asList(p18, p19, p191));
+		cat8.getProducts().addAll(Arrays.asList(p18, p19));
 		
 		cat9.getProducts().addAll(Arrays.asList(p20, p21, p22));
 		cat10.getProducts().addAll(Arrays.asList(p23, p24, p25, p26, p27));
