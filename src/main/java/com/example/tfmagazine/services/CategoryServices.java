@@ -48,7 +48,7 @@ public class CategoryServices {
 	}
 	
 	private void updateData(Category newObj, Category obj) {
-		newObj.setNome(obj.getNome());
+		newObj.setName(obj.getName());
 	}
 	
 	public void delete(Integer id) {

@@ -83,9 +83,9 @@ public class DBService {
 		Category cat12 = new Category(null, "Games");
 		
 		
-		Product p1 = new Product(null, "Notebook", 2100.00);
-		Product p2 = new Product(null, "Impressora", 1400.00);
-		Product p3 = new Product(null, "Mouse", 40.00);
+		Product p1 = new Product(null, "Notebook Samsung Expert x50", 2100.00);
+		Product p2 = new Product(null, "Impressora Epson Deskjet Eco Tank L3150", 1400.00);
+		Product p3 = new Product(null, "Mouse Logitech Prodigy G203", 40.00);
 		Product p4 = new Product(null, "Bola futebol", 120.00);
 		Product p5 = new Product(null, "Chave philips", 60.00);
 		Product p6 = new Product(null, "Bola basquete", 140.00);
@@ -96,7 +96,7 @@ public class DBService {
 		Product p9 = new Product(null, "Óculos de Grau Feminino", 249.04);
 		Product p10 = new Product(null, "Kit Camiseta Básica c/5 Peças Masculinas", 89.99);
 		
-		Product p11= new Product(null, "Cobertor Casal Iury", 79.90);
+		Product p11= new Product(null, "Cobertor Casal Yuri", 79.90);
 		Product p12 = new Product(null, "Kit 2 Travesseiros fibra Siliconada", 22.40);
 		Product p13 = new Product(null, "Jogo de Toalha Santista Royar Nut", 59.90);
 		

@@ -11,7 +11,7 @@ public class TfMagazineApplication implements CommandLineRunner {
 		SpringApplication.run(TfMagazineApplication.class, args);
 	}
 
-	@Override
+	
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		

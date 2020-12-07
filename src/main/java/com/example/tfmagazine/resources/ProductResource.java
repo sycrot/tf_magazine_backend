@@ -33,11 +33,11 @@ public class ProductResource {
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public ResponseEntity<Page<ProductDTO>> findPage(
-			@RequestParam(value="nome", defaultValue="") String nome,
+			@RequestParam(value="name", defaultValue="") String nome,
 			@RequestParam(value="categorias", defaultValue="") String categorias,
 			@RequestParam(value="page", defaultValue="0") Integer page,
 			@RequestParam(value="linesPerPage", defaultValue="24") Integer linesPerPage,
-			@RequestParam(value="orderBy", defaultValue="nome") String orderBy,
+			@RequestParam(value="orderBy", defaultValue="name") String orderBy,
 			@RequestParam(value="direction", defaultValue="ASC") String direction) {
 	
 		String nomeDecod = URL.decodeParam(nome);

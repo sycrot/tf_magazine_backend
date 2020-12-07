@@ -124,7 +124,7 @@ CREATE TABLE `client` (
 
 LOCK TABLES `client` WRITE;
 /*!40000 ALTER TABLE `client` DISABLE KEYS */;
-INSERT INTO `client` VALUES (1,'32324100304','purrmageddon@gmail.com','Josefino','$2a$10$bcOwQbxRfjhdcoBDgtt8UueqfBe5YWDEgD/AcDSX1JZnTY9vtUve2',1),(2,'98481603708','thiagofarias99@hotmail.com','Jack','$2a$10$EHVhlnMJdct/1DCsjhCpi.wegV9zguP2MoE5kErw0sbaTrOtrMlbu',1);
+INSERT INTO `client` VALUES (1,'32324100304','purrmageddon@gmail.com','Josefino','$2a$10$nGHRidMIJh76MXzY2h2boeStEgRWsQkYAKi9cmvFY0Yf4z/j6k72u',1),(2,'98481603708','thiagofarias99@hotmail.com','Jack','$2a$10$Is4e3ORCzDACdLWXY9sA0OQ8b4dHFOjcwRr2u63emG4a.JNlBGAtC',1);
 /*!40000 ALTER TABLE `client` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -399,4 +399,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-07-27  9:38:20
+-- Dump completed on 2020-07-27 16:16:04
